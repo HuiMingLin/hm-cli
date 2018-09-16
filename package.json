@@ -1,0 +1,27 @@
+{
+  "name": "lhm-cli",
+  "version": "1.0.0",
+  "description": "A CLI app that gives you the weather forecast",
+  "main": "index.js",
+  "homepage": "https://github.com/HuiMingLin/hm-cli",
+  "repository": "https://github.com/HuiMingLin/hm-cli.git",
+  "author": "Ryan Lin <601882460@qq.com>",
+  "license": "MIT",
+  "bin": {
+    "lhm-cli": "bin/cli.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "minimist": "^1.2.0",
+    "ora": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "weather",
+    "forecast",
+    "rain"
+  ],
+  "preferGlobal": true
+}
